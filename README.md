@@ -5,8 +5,7 @@
   - [1.3. ⚙️ Tecnologias Utilizadas](#13-️-tecnologias-utilizadas)
   - [1.4. 📁 Estrutura do Projeto](#14--estrutura-do-projeto)
   - [1.5. 🚀 Como Executar](#15--como-executar)
-  - [1.6. 📈 Exemplos de Gráficos](#16--exemplos-de-gráficos)
-  - [1.7. 📬 Contato](#17--contato)
+  - [1.6. 📬 Contato](#16--contato)
 
 # 1. 🍺 Previsão de Consumo de Cerveja - Regressão Linear
 
@@ -65,12 +64,11 @@ scikit-learn = ">=1.6.1,<2.0.0"
 ```
 beer-consumption-ml/
 ├── data/
-│   └── beer_consumption.csv        # Dataset original
+│   ├── raw/                         # Dados originais brutos
+│   ├── processed/                   # Dados tratados/pré-processados
 ├── img/
 ├── models/
 ├── notebooks/
-│   └── 01_exploratory_analysis.ipynb
-│   └── 02_model_training.ipynb 
 ├── src/
 ├── tests/
 ├── README.md
@@ -96,16 +94,7 @@ beer-consumption-ml/
 
 ---
 
-## 1.6. 📈 Exemplos de Gráficos
-
-- .
-- ..
-- ...
-- ....
-
----
-
-## 1.7. 📬 Contato
+## 1.6. 📬 Contato
 
 - ✉️ **E-mail:** [espedito.ferreira.alves@outlook.com](espedito.ferreira.alves@outlook.com) 
 - 🔗 **LinkedIn:** [Espedito Ferreira Alves](https://www.linkedin.com/in/espedito-ferreira-alves/)  
